@@ -13,9 +13,14 @@ def add(a, b):
     print(a + b)
 
 
+def mul(a, b):
+    print(f"{a}*{b}=", a * b)
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     add(4, 5)
+    mul(7, 8)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
